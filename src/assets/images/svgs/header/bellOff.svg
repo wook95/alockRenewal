@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="21" viewBox="0 0 17 21">
+  <g id="종_아이콘" data-name="종 아이콘" transform="translate(-15 -13)">
+    <g id="사각형_71" data-name="사각형 71" transform="translate(15 13)" fill="none" stroke="#212529" stroke-width="2">
+      <path d="M8.5,0h0A8.5,8.5,0,0,1,17,8.5V17a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V8.5A8.5,8.5,0,0,1,8.5,0Z" stroke="none"/>
+      <path d="M8.5,1h0A7.5,7.5,0,0,1,16,8.5v6.667a.833.833,0,0,1-.833.833H1.833A.833.833,0,0,1,1,15.167V8.5A7.5,7.5,0,0,1,8.5,1Z" fill="none"/>
+    </g>
+    <line id="선_39" data-name="선 39" x2="4" transform="translate(21.5 33)" fill="none" stroke="#212529" stroke-width="2"/>
+  </g>
+</svg>

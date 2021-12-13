@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.995" height="21" viewBox="0 0 21.995 21">
+  <g id="고객지원_아이콘" data-name="고객지원 아이콘" transform="translate(-103.5 -156.5)">
+    <g id="그룹_2699" data-name="그룹 2699" transform="translate(-536.05 74.905)">
+      <path id="패스_2197" data-name="패스 2197" d="M644.505,96.085V90.448c0-4.337,3.134-7.853,7-7.853h0c3.867,0,7,3.516,7,7.853v6.4a3.56,3.56,0,0,1-3.339,3.746l-1.253.333" transform="translate(-0.955)" fill="none" stroke="#868e96" stroke-width="2"/>
+      <path id="패스_2198" data-name="패스 2198" d="M656.729,89.645h1.294a2.538,2.538,0,0,1,2.249,2.751h0a2.537,2.537,0,0,1-2.249,2.749h-1.346" transform="translate(0.273 -0.05)" fill="none" stroke="#868e96" stroke-width="2"/>
+      <path id="패스_2199" data-name="패스 2199" d="M644.593,95.145H643.3a2.537,2.537,0,0,1-2.25-2.749h0a2.538,2.538,0,0,1,2.25-2.751h1.346" transform="translate(-0.5 -0.05)" fill="none" stroke="#868e96" stroke-width="2"/>
+    </g>
+    <g id="사각형_130" data-name="사각형 130" transform="translate(111 172.5)" fill="none" stroke="#868e96" stroke-width="2">
+      <rect width="7" height="5" rx="2" stroke="none"/>
+      <rect x="1" y="1" width="5" height="3" rx="1" fill="none"/>
+    </g>
+  </g>
+</svg>

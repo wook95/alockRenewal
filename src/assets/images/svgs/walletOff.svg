@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="19.5" viewBox="0 0 26 19.5">
+  <g id="지갑" transform="translate(-69 -781.5)">
+    <g id="wallet" transform="translate(-406.462 72.52)">
+      <path id="패스_2110" data-name="패스 2110" d="M498.425,715.086H478.553a2.1,2.1,0,0,1-2.091-2.1V723.9c0,2.408,1.94,4.872,4.333,4.872h19.667V715.086Z" transform="translate(0 -1.295)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_2111" data-name="패스 2111" d="M498.425,713.791V709.48H478.553a2.1,2.1,0,0,0-2.091,2.1v.052" transform="translate(0 0.5)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+      <line id="선_21" data-name="선 21" x1="3.759" transform="translate(494.04 720.326)" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
