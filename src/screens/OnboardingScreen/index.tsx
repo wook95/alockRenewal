@@ -5,6 +5,7 @@ import {
   NativeSyntheticEvent,
   Platform,
 } from 'react-native'
+import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import styled from 'styled-components/native'
 import DotsIndicator from './DotsIndicator/DotsIndicator'
 import { BottomBtn, OnboardingItem } from '~/components'
@@ -18,7 +19,7 @@ const { DEVICE_WIDTH } = length
 const INTERVAL_TIME = 1400 // auto scroll interval 시간(ms)
 
 interface Props {
-  navigation: any // 구체적인 타입 필요
+  navigation: any // 추후에 구체적인 타입을 주시면 감사하겠습니다.
 }
 
 const SafeAreaContainer = styled.SafeAreaView`
@@ -26,8 +27,10 @@ const SafeAreaContainer = styled.SafeAreaView`
   background-color: ${colors.grayscale.eighth};
 `
 
-const AnimatingImageWrapper = styled.View`
+const AnimatingImageWrapper = styled.View<{ topInset: number }>`
   position: absolute;
+  top: ${({ topInset }) => topInset}px;
+  z-index: 1;
 `
 
 const OnboardingScreen = ({ navigation }: Props) => {
@@ -36,6 +39,8 @@ const OnboardingScreen = ({ navigation }: Props) => {
   const [showFadingImages, setShowFadingImages] = useState(true)
   const scrollX = useRef(new Animated.Value(0)).current
   const scrollRef: any = useRef(null) // 추후에 구체적인 타입을 주시면 감사하겠습니다.
+
+  const { top } = useSafeAreaInsets()
 
   // auto scroll 함수
   const onAutoScroll = useCallback(() => {
@@ -99,7 +104,7 @@ const OnboardingScreen = ({ navigation }: Props) => {
   return (
     <>
       <SafeAreaContainer>
-        <AnimatingImageWrapper pointerEvents={'none'}>
+        <AnimatingImageWrapper pointerEvents={'none'} topInset={top}>
           <OnboardingItem
             topText={' '}
             orangeText={' '}
