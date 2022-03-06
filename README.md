@@ -55,7 +55,7 @@
 
 ### 1. 애니메이션이 들어간 스플래시 스크린
  - react native로 애니메이션이 들어간 스플래쉬는 구현이 어려워, 스플래쉬인 척 하는 스크린을 만드는것으로 결정
- - ios, android 둘 다 네이티브로 최초의 이미지 만들어줌. 만
+ - ios, android 둘 다 네이티브로 최초의 이미지 만들어줌.
  - animated의 여러 메소드를 쓰고(parallel등 ), 콜백을 활용해 애니메이션의 순서 정함
 
 
@@ -66,8 +66,7 @@
     `Ref.current.scrollTo is not a function` → scrollView의 ref 붙이고 ref를 변경하는 함수만 넘겨서 해결 → 
     ref.current가 스크롤뷰, 뷰, 텍스트인풋에서 다르게 나타남
 - 키보드 사이즈에 따라 백그라운드의 색이 보이는 문제 발생: <br>
-    [Android-Splash-Screen-구현](https://velog.io/@pish11010/Android-Splash-Screen-%EA%B5%AC%ED%98%84)을 보았을때 MainActivity에서 Theme을 복구를 안해주어서 나타났던 문제. 한번도 써보지 않았던 기술이라 하더라도
-    그냥 되었다고 기뻐하는 정도를 넘어 제대로 구현해야한다고 생각함.
+    [Android-Splash-Screen-구현](https://velog.io/@pish11010/Android-Splash-Screen-%EA%B5%AC%ED%98%84)을 보았을때 MainActivity에서 Theme을 복구를 안해주어서 나타났던 문제.
     
     ```java
     @Override
